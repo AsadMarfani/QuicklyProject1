@@ -1,9 +1,10 @@
 var React = require('react');
+var ReactDOM = require('react-dom');
+import { Menu } from "Menu";
 var Main = (props) => {
 	return(
 		<div>
-			<h1>This Is The Main Component</h1>
-			{props.children}
+			<Menu />
 		</div>
 	);
 }
