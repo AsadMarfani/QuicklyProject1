@@ -4,7 +4,7 @@ export class Link extends React.Component{
 	render() {
 		const url = '/'+ this.props.label.toLowerCase().trim().replace(' ','-');
 		return (
-				<a href = {url}>{this.props.label}</a>
+				<a href = {url} className = "columns medium-3 hollow button expanded"><h5>{this.props.label}</h5></a>
 		);
 	}
 }
